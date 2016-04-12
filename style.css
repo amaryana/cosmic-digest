@@ -1,0 +1,26 @@
+.logo {
+  margin-left: 40px;
+}
+.search {
+  width: 300px;
+  margin-top: 40px;
+  margin-right: 40px;
+  background-color: #deeff5;
+  float: right;
+}
+.menu {
+  margin:0;
+	padding:0;
+  text-align: center;
+}
+.menu li {
+	display:inline;
+	padding-right: 5%;
+	margin:0;
+  text-decoration: none;
+  font-size: 20px;
+}
+.submit {
+  float: right;
+  margin-right: 20px;
+}
