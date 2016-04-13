@@ -22,5 +22,34 @@
 }
 .submit {
   float: right;
-  margin-right: 20px;
+  margin-top: 20px;
+  width: 100%
+}
+.login {
+  float: right;
+  text-align: center;
+  padding-bottom: 20px;
+  width: 100%
+}
+.login_input {
+  padding-bottom: 5px;
+}
+.userpanel {
+  margin-top: 10px;
+  float: right;
+  width: 20%;
+}
+.rules {
+  margin-top: 10px;
+}
+.rules li {
+  text-align: left;
+}
+.content {
+  float: left;
+  width: 80%;
+}
+body {
+  width: 100%;
+  display: flex;
 }

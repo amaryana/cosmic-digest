@@ -1,4 +1,4 @@
-angular.module('cosmicdigest').controller('dayctrl', function($scope){
+angular.module('cosmicdigest').controller('dayCtrl', function($scope){
 
 
 });
