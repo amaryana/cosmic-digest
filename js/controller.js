@@ -1,4 +1,10 @@
-angular.module('cosmicdigest').controller('PostsController', function($scope, $firebaseArray, FirebaseService){
+angular.module('cosmicdigest').controller('PostsController', function($scope, postRef, linkRef, commentsRef, $firebaseObject, $firebaseArray, FirebaseService){
+
+  $scope.postRef = $firebaseObject(postRef);
+  $scope.linkRef = $firebaseObject(postRef);
+  $scope.commentsRef = $firebaseArray(commentsRef);
+
+  $scope.test = 'hello'
 
 
 
